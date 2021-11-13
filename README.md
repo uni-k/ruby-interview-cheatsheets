@@ -2,7 +2,19 @@
 This is a lightweight document to refresh the ruby syntax.
 
 ## Array manipulations
-
+First element of an array
+```
+arr[0]
+```
+Last element of an array
+```
+arr[-1]
+arr.last
+```
+Second from the last element
+```
+arr[-2]
+```
 Add an element in the end of an array
 ```
 arr.push(5)
@@ -23,5 +35,7 @@ Iterate with an index
 ```
 arr.each_with_index do |element, index|
 ```
-
-
+Range of the second utill the last elements
+```
+arr[1..-1]
+```
